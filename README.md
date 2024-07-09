@@ -27,7 +27,7 @@ dockstore tool launch --local-entry luna.cwl --json luna-job.yml --script
 docker run -it --rm -v /Programme/tutorial:/data remnrem/lunalite
 ```
 
-#### Dockstore Yaml Command Line Validator Tool
+### Dockstore Yaml Command Line Validator Tool
 
 The Dockstore Yaml Command Line Validator Tool is used to verify that a .dockstore.yml file is valid for use in Dockstore and that all referenced files are present.
 
