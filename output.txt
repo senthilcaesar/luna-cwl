@@ -1,13 +1,13 @@
 Running luna
 ===================================================================
-+++ luna | v0.99d, 02-Jan-2024 | starting 09-Jul-2024 18:56:58 +++
++++ luna | v0.99d, 02-Jan-2024 | starting 09-Jul-2024 19:05:22 +++
 ===================================================================
-input(s): /var/lib/cwl/stg40e899bd-f7b5-449e-b74d-3a0f60d4bf99/learn-nsrr02.edf
+input(s): /var/lib/cwl/stgeba10ead-ee15-4183-a8fb-792e018d4654/learn-nsrr02.edf
 output  : .
 commands: c1	DESC	
 
 ___________________________________________________________________
-Processing: /var/lib/cwl/stg40e899bd-f7b5-449e-b74d-3a0f60d4bf99/learn-nsrr02 [ #1 ]
+Processing: /var/lib/cwl/stgeba10ead-ee15-4183-a8fb-792e018d4654/learn-nsrr02 [ #1 ]
  duration 09.57.30, 35850s | time 21.18.06 - 07.15.36 | date 01.01.85
 
  signals: 14 (of 14) selected in a standard EDF file
@@ -22,8 +22,8 @@ Processing: /var/lib/cwl/stg40e899bd-f7b5-449e-b74d-3a0f60d4bf99/learn-nsrr02 [ 
  ..................................................................
  CMD #1: DESC
    options: sig=*
-EDF filename      : /var/lib/cwl/stg40e899bd-f7b5-449e-b74d-3a0f60d4bf99/learn-nsrr02.edf
-ID                : /var/lib/cwl/stg40e899bd-f7b5-449e-b74d-3a0f60d4bf99/learn-nsrr02
+EDF filename      : /var/lib/cwl/stgeba10ead-ee15-4183-a8fb-792e018d4654/learn-nsrr02.edf
+ID                : /var/lib/cwl/stgeba10ead-ee15-4183-a8fb-792e018d4654/learn-nsrr02
 Clock time        : 21.18.06 - 07.15.36
 Duration          : 09:57:30  35850 sec
 # signals         : 14
@@ -36,5 +36,5 @@ ___________________________________________________________________
 ...processed 1 EDFs, done.
 ...processed 1 command set(s),  all of which passed
 -------------------------------------------------------------------
-+++ luna | finishing 09-Jul-2024 18:56:58                       +++
++++ luna | finishing 09-Jul-2024 19:05:22                       +++
 ===================================================================
