@@ -1,0 +1,40 @@
+Running luna
+===================================================================
++++ luna | v0.99d, 02-Jan-2024 | starting 09-Jul-2024 18:56:58 +++
+===================================================================
+input(s): /var/lib/cwl/stg40e899bd-f7b5-449e-b74d-3a0f60d4bf99/learn-nsrr02.edf
+output  : .
+commands: c1	DESC	
+
+___________________________________________________________________
+Processing: /var/lib/cwl/stg40e899bd-f7b5-449e-b74d-3a0f60d4bf99/learn-nsrr02 [ #1 ]
+ duration 09.57.30, 35850s | time 21.18.06 - 07.15.36 | date 01.01.85
+
+ signals: 14 (of 14) selected in a standard EDF file
+  SaO2 | PR | EEG_sec | ECG | EMG | EOG_L | EOG_R | EEG
+  AIRFLOW | THOR_RES | ABDO_RES | POSITION | LIGHT | OX_STAT
+
+
+ variables:
+  airflow=AIRFLOW | ecg=ECG | eeg=EEG_sec,EEG | effort=THOR_RES,A...
+  emg=EMG | eog=EOG_L,EOG_R | hr=PR | id=/var/lib/c... | light=LIGHT
+  oxygen=SaO2,OX_STAT | position=POSITION
+ ..................................................................
+ CMD #1: DESC
+   options: sig=*
+EDF filename      : /var/lib/cwl/stg40e899bd-f7b5-449e-b74d-3a0f60d4bf99/learn-nsrr02.edf
+ID                : /var/lib/cwl/stg40e899bd-f7b5-449e-b74d-3a0f60d4bf99/learn-nsrr02
+Clock time        : 21.18.06 - 07.15.36
+Duration          : 09:57:30  35850 sec
+# signals         : 14
+Signals           : SaO2[1] PR[1] EEG_sec[125] ECG[250] EMG[125] EOG_L[50]
+                    EOG_R[50] EEG[125] AIRFLOW[10] THOR_RES[10] ABDO_RES[10] POSITION[1]
+                    LIGHT[1] OX_STAT[1]
+
+
+___________________________________________________________________
+...processed 1 EDFs, done.
+...processed 1 command set(s),  all of which passed
+-------------------------------------------------------------------
++++ luna | finishing 09-Jul-2024 18:56:58                       +++
+===================================================================

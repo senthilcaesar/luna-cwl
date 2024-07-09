@@ -12,7 +12,7 @@ The parameter is a file containing the input fields with their corresponding val
 The Inputs Objects file can be written in JSON or YAML.
 
 ```python
-cwltool luna.cwl luna-job.json
+cwltool luna.cwl luna-job.yml
 ```
 
 ### Running `luna.cwl` using Dockstore CLI
