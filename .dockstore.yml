@@ -1,0 +1,9 @@
+version: 1.2
+workflows:
+  - subclass: CWL
+    primaryDescriptorPath: /luna.cwl  # absolute path
+    testParameterFiles: /luna-job.yml  # absolute path
+    readMePath: / # absolute path
+    authors:
+      - name: Senthil Palanivelu
+        email: senthilcaesar@gmail.com
