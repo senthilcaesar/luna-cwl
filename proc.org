@@ -1,0 +1,6 @@
+cwltool --validate luna.cwl
+cwltool luna.cwl luna-job.json
+dockstore tool launch --local-entry luna.cwl --json luna-job.yml --script
+
+
+docker run -it --rm -v /Users/sq566/Programme/tutorial:/data remnrem/lunalite
