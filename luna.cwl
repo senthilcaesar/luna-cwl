@@ -1,4 +1,4 @@
-class: CommandLineTool
+class: Workflow
 id: "luna"
 label: "luna tool"
 cwlVersion: v1.2
